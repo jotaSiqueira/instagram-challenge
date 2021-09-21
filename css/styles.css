@@ -1,0 +1,188 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #DBDBDB;
+  min-width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+main {
+  margin-left: 25%;
+  padding-right: 300px;
+  max-width: 950px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+}
+
+section {
+  background-color: #ffffff;
+  width: 582px;
+  max-width: 600px;
+  padding-top: 10px;
+  padding-left: 18px;
+  padding-bottom: 10px;
+}
+section#timeline {
+  padding: 0px;
+  min-width: 600px;
+  border-radius: 5px;
+  display: block;
+}
+section#barra-stories {
+  font-size: 4px !important;
+  display: flex;
+  font-weight: 500;
+  border-radius: 5px;
+  padding-bottom: 0px;
+  min-height: 118px;
+  max-height: 120px;
+  border: 1px solid #DBDBDB;
+  margin-bottom: 25px;
+}
+section#barra-stories img {
+  max-width: 61px;
+  border-radius: 50%;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+p#nome-usuario {
+  font-size: 12px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+p#seu-perfil {
+  display: flex;
+  margin-bottom: 0px;
+}
+
+div#conteudo {
+  min-width: 600px;
+  border: 1px solid #DBDBDB;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  display: block;
+}
+div#meio-cabecario {
+  display: flex;
+  margin: auto;
+  max-width: 900px;
+  padding-left: 0px;
+}
+div#meio-cabecario img#logotipo {
+  margin-right: 520px;
+}
+div#meio-cabecario i {
+  margin-right: 20px;
+  color: black;
+}
+div#comentarios {
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+div#storie {
+  text-align: center;
+  max-width: 100px;
+  padding: 0px;
+  margin-right: 10px;
+}
+div#storie-foto {
+  border-radius: 50%;
+  max-width: 55px;
+  max-height: 55px;
+  margin-right: 25px;
+}
+div#stories {
+  display: flex;
+}
+div#sugestao {
+  position: fixed;
+  right: 500px;
+  padding: 0px;
+  display: flex;
+  min-width: 200px;
+  max-height: 118px;
+  max-width: 290px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  padding-top: 25px;
+}
+div#sugestao img {
+  max-height: 60px;
+}
+div#perfil {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  max-height: 10px;
+}
+div#sugestao-info {
+  background-color: #3bb4fa;
+}
+div.fa-2x {
+  margin-left: 10px;
+}
+div.fa-2x a {
+  color: black;
+}
+div#bloco {
+  max-width: 290px;
+}
+div#sugestoes {
+  margin-top: 100px;
+  margin-left: 30px;
+  right: 485px;
+  width: 300px;
+  position: fixed;
+}
+div#sugestoes a#sugestoes-para-voce {
+  font-weight: 500;
+  color: gray;
+  font-size: 14px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+div#sugestoes a#ver-tudo {
+  color: #3bb4fa;
+  text-decoration: none;
+}
+div#sugestoes img {
+  display: flex;
+  margin-top: 10px;
+  border-radius: 50%;
+  max-width: 32px;
+  border: 1px solid black;
+  margin-right: 0px;
+}
+
+img {
+  max-width: 600px;
+}
+
+a#mudar {
+  color: #00a2ff;
+  text-decoration: none;
+}
+a#sua-tag {
+  margin-right: 100px;
+}
+
+/*# sourceMappingURL=styles.css.map */
