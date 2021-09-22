@@ -51,10 +51,6 @@ section#barra-stories {
   border: 1px solid #DBDBDB;
   margin-bottom: 25px;
 }
-section#barra-stories img {
-  max-width: 61px;
-  border-radius: 50%;
-}
 
 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -80,6 +76,32 @@ div#conteudo {
   margin-bottom: 30px;
   border-radius: 5px;
   display: block;
+}
+div#cabecario-foto {
+  display: flex;
+  padding: 10px;
+}
+div#cabecario-foto p {
+  margin-top: 5px;
+  font-weight: 500;
+}
+div#cabecario-foto p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+div#cabecario-foto img {
+  max-width: 32px;
+  max-height: 32px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+div#cabecario-foto i {
+  margin-left: 470px;
+  margin-top: 10px;
+}
+div#cabecario-foto i:hover {
+  cursor: pointer;
 }
 div#meio-cabecario {
   display: flex;
@@ -110,6 +132,16 @@ div#storie-foto {
   max-width: 55px;
   max-height: 55px;
   margin-right: 25px;
+  border: 1px solid orange;
+}
+div#storie-foto img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+div#storie-foto a {
+  text-decoration: none;
 }
 div#stories {
   display: flex;
@@ -169,8 +201,27 @@ div#sugestoes img {
   margin-top: 10px;
   border-radius: 50%;
   max-width: 32px;
+  max-height: 32px;
   border: 1px solid black;
   margin-right: 0px;
+}
+div#sugestoes-campo {
+  display: flex;
+  max-height: 50px;
+}
+div#sugestoes-campo a {
+  color: #3bb4fa;
+  text-decoration: none;
+}
+div#sugestoes-campo div#perfil-sugerido {
+  display: block;
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 310px;
+}
+div#sugestoes-campo div#perfil-sugerido p {
+  color: gray;
+  font-size: 12px;
 }
 
 img {
